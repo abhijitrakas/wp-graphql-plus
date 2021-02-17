@@ -7,6 +7,7 @@
 
 namespace WPGraphQLPlus\Inc;
 
+use \WPGraphQLPlus\Inc\Fields\Users;
 use \WPGraphQLPlus\Inc\Fields\Sidebars;
 use \WPGraphQLPlus\Inc\Traits\Singleton;
 
@@ -23,6 +24,7 @@ class Fields {
 	protected function __construct() {
 
 		// Load plugin classes.
+		Users::get_instance();
 		Sidebars::get_instance();
 
 	}

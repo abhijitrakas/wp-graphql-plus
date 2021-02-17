@@ -30,7 +30,7 @@ class Users {
 	}
 
 	/**
-	 * Function to register sidebar field.
+	 * Function to register userPosts field.
 	 *
 	 * @return mixed
 	 */

@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin manifest class.
+ * Plugin sidebar class.
  *
  * @package WPGraphQLPlus
  */
@@ -24,11 +24,16 @@ class Sidebars {
 		/**
 		 * Actions.
 		 */
-		add_action( 'graphql_register_types', [ $this, 'register_fields' ] );
+		add_action( 'graphql_register_types', [ $this, 'register_field' ] );
 
 	}
 
-	public function register_fields() {
+	/**
+	 * Function to register sidebar field.
+	 *
+	 * @return mixed
+	 */
+	public function register_field() {
 
 		global $wp_registered_sidebars;
 

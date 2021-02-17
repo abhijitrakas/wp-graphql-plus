@@ -57,7 +57,6 @@ class Users {
 		 */
 		$public_post_types = apply_filters( 'wp_graphql_plus_public_post_type', $public_post_types );
 
-
 		$config = [
 			'fromType'           => 'User',
 			'toType'             => 'Post',
@@ -65,7 +64,7 @@ class Users {
 			'connectionTypeName' => 'UserPostsConnection',
 			'resolve'            => function( $user, $args, $context, $info ) use( $public_post_types ) {
 
-				$user_id    = $user->__get( 'userId' );
+				$user_id    = $user->__get( 'userId' ); // Get user id.
 				$connection = new PostObjectConnectionResolver( $user, $args, $context, $info, $public_post_types );
 				$connection->set_query_arg( 'author', (int) $user_id );
 				return $connection->get_connection();

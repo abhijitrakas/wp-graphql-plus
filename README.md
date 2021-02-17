@@ -9,8 +9,8 @@ Few new features and Extending some WPGraphQL APIs for WordPress.
 
 ## Custom WPGraphQL Fields
 
-- sidebar
-- userPosts
+- [sidebar](https://github.com/abhijitrakas/wp-graphql-plus/tree/develop#sidebar)
+- [userPosts](https://github.com/abhijitrakas/wp-graphql-plus/tree/develop#userposts)
 
 ### sidebar
 Return widget data for selected sidebar

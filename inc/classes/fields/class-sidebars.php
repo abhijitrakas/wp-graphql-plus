@@ -61,7 +61,7 @@ class Sidebars {
 
 		register_graphql_field(
 			'RootQuery',
-			'widgets',
+			'sidebars',
 			[
 				'type'        => 'SidebarFields',
 				'description' => esc_html__( 'Get sidebar data', 'wp-graphql-plus' ),

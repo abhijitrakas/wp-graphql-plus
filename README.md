@@ -7,7 +7,6 @@ Few new features and Extending some WPGraphQL APIs for WordPress.
 - Alternatively, you can download the plugin from the [plugin directory](http://wordpress.org/plugins/wp-graphql-plus/). Unzip it and upload it to the plugins folder of your WordPress installation (wp-content/plugins/ directory of your WordPress installation).
 - Activate it through the 'Plugins' section.
 
-
 ## Custom WPGraphQL Fields
 
 - sidebar

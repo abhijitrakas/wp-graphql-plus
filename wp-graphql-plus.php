@@ -3,7 +3,7 @@
  * Plugin Name: WP GraphQL Plus
  * Plugin URI: https://github.com/abhijitrakas/wp-graphql-plus
  * GitHub Plugin URI: https://github.com/abhijitrakas/wp-graphql-plus
- * Description: Adding few new features and Extending some WPGraphQL APIs for WordPress
+ * Description: Some new features and extending some WPGraphQL APIs for WordPress.
  * Author: Abhijit Rakas
  * Author URI: https://github.com/abhijitrakas
  * Version: 0.0.1
@@ -21,25 +21,10 @@
 define( 'WP_GRAPHQL_PLUS_PATH', untrailingslashit( plugin_dir_path( __FILE__ ) ) );
 define( 'WP_GRAPHQL_PLUS_URL', untrailingslashit( plugin_dir_url( __FILE__ ) ) );
 
-
-function wpdocs_theme_slug_widgets_init() {
-    register_sidebar( array(
-        'name'          => __( 'Main Sidebar', 'textdomain' ),
-        'id'            => 'sidebar-14',
-        'description'   => __( 'Widgets in this area will be shown on all posts and pages.', 'textdomain' ),
-        'before_widget' => '<li id="%1$s" class="widget %2$s">',
-        'after_widget'  => '</li>',
-        'before_title'  => '<h2 class="widgettitle">',
-        'after_title'   => '</h2>',
-    ) );
-}
-add_action( 'widgets_init', 'wpdocs_theme_slug_widgets_init' );
-
 // phpcs:disable WordPressVIPMinimum.Files.IncludingFile.UsingCustomConstant
 require_once WP_GRAPHQL_PLUS_PATH . '/inc/helpers/autoloader.php';
 require_once WP_GRAPHQL_PLUS_PATH . '/inc/helpers/custom-functions.php';
 // phpcs:enable WordPressVIPMinimum.Files.IncludingFile.UsingCustomConstant
-
 
 /**
  * To load plugin manifest class.

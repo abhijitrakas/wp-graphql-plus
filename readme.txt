@@ -11,7 +11,10 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-Some new features and extending some WPGraphQL APIs for WordPress.
+This plugin needs WPGraphQL plugin. Make sure plugin is installed and activated.
+
+This plugin will add some new features and also extend some existing WPGraphQL API for WordPress.
+
 Check https://github.com/abhijitrakas/wp-graphql-plus for more details.
 
 == New GraphQL Fields ==

@@ -3,7 +3,7 @@
  * Plugin Name: WP GraphQL Plus
  * Plugin URI: https://github.com/abhijitrakas/wp-graphql-plus
  * GitHub Plugin URI: https://github.com/abhijitrakas/wp-graphql-plus
- * Description: Few new features and Extending some WPGraphQL APIs for WordPress.
+ * Description: Some new features and extending some WPGraphQL APIs for WordPress.
  * Author: Abhijit Rakas
  * Author URI: https://github.com/abhijitrakas
  * Version: 0.0.1

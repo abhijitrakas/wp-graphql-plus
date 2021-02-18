@@ -1,5 +1,5 @@
 # wp-graphql-plus
-Few new features and Extending some WPGraphQL APIs for WordPress.
+Some new features and extending some WPGraphQL APIs for WordPress.
 
 ## Install
 - This plugin completely dependent on the `WPGraphQL` plugin. Make sure it's installed and activated.
